@@ -1,0 +1,25 @@
+---
+title: "Lab 6: Quarto Presentation"
+author: "Brandon Imstepf"
+format: revealjs
+editor: visual
+bibliography: references.bib
+---
+
+## Some Important Literature
+- This reference contains cool stuff about Physics Informed Neural Networks (PINNs) [@raissi_physics-informed_2019]
+
+- This is a paper from a collaborator I'm working with, and we're solving the PDE described in this paper using machine learning! [@torok_emergence_2021]
+
+- This paper is very well structured and relevant to my research in Alzheimer's Disease [@thompson_alzheimers_2024]
+
+## Some Cool Equations
+
+$$
+\begin{equation*}
+            \vec{\textbf{x}}(t) = \vec{\textbf{x}}_{0}  e^{- \beta H t} = \underbrace{Ue^{-\Lambda \beta t}U^{H}\vec{\textbf{x}}_{0}}_{\text{Diagonalization}} = \underbrace{\sum_{i=1}^{N}(e^{(-\beta \lambda_{i} t)}\vec{\textbf{u}}_{i}^{H}\vec{\textbf{x}}_{0})\vec{\textbf{u}}_{i}}_{\text{Eigendecomposition}}
+\end{equation*}
+$$
+
+
+## References
